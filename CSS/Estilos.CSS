@@ -1,5 +1,19 @@
 body{
-    color: orange;
-    text-align: center;
+    color: black;
+    text-align: left;
     font-family: sans-serif;
+}
+
+#Container
+{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid beige;
+    margin: 0 auto;
+}
+
+#Container h1
+{
+  font-size: 20px; 
 }
