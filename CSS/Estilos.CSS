@@ -1,5 +1,6 @@
 body{
-    color: orange;
+    background: beige;
+    color: black;
     text-align: left;
     font-family: 'Arial';
 }
@@ -20,7 +21,7 @@ body{
 
 #cabecera
 {
-    background-color: blue;
+    background-color: url("../Images/LichessDown.png") no-repeat center center;
     color: whitesmoke;
     margin: 0;
     padding: 0.5em;
@@ -29,9 +30,16 @@ body{
 
 }
 
+#Cabecera #Logo
+{
+    width: 33;
+    vertical-align: middle;
+}
+
 #post
 {
     padding: 1em;
+    background: white;
 }
 
 #cabecera #tagline
